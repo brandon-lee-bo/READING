@@ -20,12 +20,13 @@ Computer architecture · AI systems · EDA · hardware-software co-design
 | [Architecture](arch/) | CPU/GPU microarchitecture, memory, and architecture-level modeling |
 | [EDA](eda/) | Design automation, accelerator generation, and design-space exploration |
 | [Books](books/) | Book notes and legally shareable material |
+| [To read](to_read/) | Papers queued for the next reading sessions, with the same four subject shelves |
 
 Each paper can have a PDF and a Markdown note in the same folder. Start a note from [NOTE_TEMPLATE.md](NOTE_TEMPLATE.md). A paper may cross categories; its primary home is listed only once below.
 
 ## Reading trail
 
-These are the public papers we have discussed in depth so far. Run `bash download-papers.sh` to put author-posted or open-access PDFs into the indicated folders.
+These are the public papers we have discussed in depth so far. Run `bash download-papers.sh` to download PDFs into the indicated local folders. The public repository links to the original sources; downloaded PDF copies are not committed.
 
 | Collection | Paper | Why it is here | Public PDF |
 | :--- | :--- | :--- | :--- |
@@ -42,4 +43,4 @@ These are the public papers we have discussed in depth so far. Run `bash downloa
 3. Which experiment most convincingly supports the claim? What does it *not* show?
 4. What question would I ask the authors, or test next?
 
-This repository is for reading, not application materials. **Unpublished or confidential manuscripts, referee material, and personal documents are intentionally excluded.** Check the license before adding a book or any other non-open PDF.
+This repository is for reading, not application materials. **Unpublished or confidential manuscripts, referee material, and personal documents are intentionally excluded.** PDFs are ignored by Git unless their redistribution rights have been verified.
